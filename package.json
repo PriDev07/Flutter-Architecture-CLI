@@ -1,0 +1,43 @@
+{
+  "name": "create-mobile-arch",
+  "version": "1.0.1",
+  "description": "A production-ready CLI tool to generate Flutter project architectures with Clean Architecture or Feature-First patterns",
+  "main": "bin/index.js",
+  "bin": {
+    "create-mobile-arch": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node bin/index.js test-app",
+    "prepublishOnly": "echo 'Ready to publish'"
+  },
+  "keywords": [
+    "flutter",
+    "cli",
+    "architecture",
+    "clean-architecture",
+    "feature-first",
+    "riverpod",
+    "bloc",
+    "scaffold",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PriDev07/Flutter-Architecture-CLI"
+  },
+  "bugs": {
+    "url": "https://github.com/PriDev07/Flutter-Architecture-CLI/issues"
+  }
+}
